@@ -1,0 +1,191 @@
+# Configuration for `python manage_papers.py discover` / `readme`.
+#
+# Everything that steers the literature search lives here so that a search run
+# is reproducible and the vault's scope is documented in one place.
+
+[discover]
+# Lower bound used when no previous run is recorded in discovery/state.json.
+since = "2025-06-01"
+# Later runs start at (last run - overlap_days) to catch papers that were
+# indexed late; previously reported candidates are hidden via the `seen` list.
+overlap_days = 45
+# Candidates below this relevance score are kept in the JSON dump only.
+min_score = 9.0
+# Weight of each seed paper a candidate cites (forward-citation signal).
+seed_weight = 2.0
+s2_limit_per_query = 100
+arxiv_max_per_query = 150
+citation_cap_per_seed = 3000
+
+# ---------------------------------------------------------------------------
+# Topic taxonomy. Order = order of sections in README.md.
+# A bib entry's `keywords` field lists topic ids; the first one is primary.
+# `keywords` below are used to *suggest* a topic for newly discovered papers.
+# ---------------------------------------------------------------------------
+[[topics]]
+id = "learned-optimizers"
+title = "General-Purpose Learned Optimizers"
+description = "Neural-network-parameterized update rules meta-trained to generalize across tasks: architectures, meta-training, scaling, meta-generalization and evaluation."
+keywords = ["learned optimizer", "learned optimizers", "learning to optimize", "meta-learned optimizer", "meta-trained optimizer", "velo", "meta-generalization", "learned update rule", "optimizer meta-training"]
+
+[[topics]]
+id = "metanetworks"
+title = "Weight-Space Learning & Graph Metanetworks"
+description = "Networks that take other networks' parameters as input: neural functionals, equivariant weight-space architectures, graph metanetworks, parameter symmetries and weight-space features."
+keywords = ["metanetwork", "metanetworks", "weight space", "weight-space", "neural functional", "parameter space", "parameter symmetr", "permutation symmetr", "neural graph", "implicit neural representation", "model zoo", "weight generation", "equivariant architectures for learning in deep weight"]
+
+[[topics]]
+id = "applications"
+title = "Learned Optimizers in Specific Domains"
+description = "Learned optimizers applied to RL, scientific ML, distributed/federated training, LLM fine-tuning and other settings."
+keywords = ["reinforcement learning", "physics-informed", "federated", "communication-efficient", "distributed training", "fine-tuning", "pde", "black-box optimization", "combinatorial"]
+
+[[topics]]
+id = "meta-learning"
+title = "Related Meta-Learning & Hyperparameter Adaptation"
+description = "Meta-learning methods and adaptive/hyper-gradient approaches closely related to learned optimization."
+keywords = ["hypergradient", "hyper-gradient", "learning rate schedule", "meta-learning", "few-shot", "hyperparameter"]
+
+[[topics]]
+id = "foundations"
+title = "Foundations of Learning to Optimize"
+description = "Early and seminal work on learning to learn and learned optimization (pre-2020)."
+keywords = []
+
+[[topics]]
+id = "surveys"
+title = "Surveys, Tutorials & Benchmarks"
+description = "Overviews, tutorials and benchmark suites."
+keywords = ["survey", "tutorial", "benchmark", "primer", "position paper"]
+
+# ---------------------------------------------------------------------------
+# Relevance scoring: term -> weight, matched (case-insensitive, substring)
+# against title + abstract. Title matches count double.
+# ---------------------------------------------------------------------------
+[relevance]
+"learned optimizer" = 4
+"learned optimization" = 3
+"learning to optimize" = 4
+"learning-to-optimize" = 4
+"l2o" = 3
+"meta-learned optimizer" = 4
+"learnable optimizer" = 3
+"meta-optimizer" = 2
+"meta-learned" = 2
+"meta-trained" = 2
+"meta-training" = 1
+"meta-generalization" = 3
+"update rule" = 2
+"velo" = 2
+"metanetwork" = 4
+"meta-network" = 2
+"weight space" = 3
+"weight-space" = 3
+"neural functional" = 4
+"weight symmetr" = 2
+"parameter symmetr" = 2
+"permutation symmetr" = 2
+"scaling symmetr" = 2
+"equivariant" = 0.5
+"graph neural network" = 0.5
+"query optimiz" = -6        # database "learned query optimizers" are off-topic
+"weight-space programming" = -3  # LLM-writes-weights trend (2026): adjacent, not core
+"neural network parameters" = 2
+"neural network weights" = 2
+"model weights" = 2
+"lora weights" = 2
+"weight generation" = 2
+"generating neural network" = 2
+"implicit neural representation" = 1
+"model zoo" = 2
+"hypernetwork" = 1
+"optimizer" = 1
+
+# ---------------------------------------------------------------------------
+# Semantic Scholar relevance-search queries (free text).
+# ---------------------------------------------------------------------------
+[queries]
+s2 = [
+  "learned optimizers",
+  "learning to optimize neural networks",
+  "meta-learned optimizer meta-generalization",
+  "learned optimizer large language model training",
+  "learned optimizer reinforcement learning",
+  "learned update rule meta-training",
+  "graph metanetworks",
+  "metanetworks neural network weights",
+  "weight space learning",
+  "neural functionals equivariant weight space",
+  "permutation symmetry neural network parameters equivariant",
+  "learning on neural network weights model zoo",
+  "weight-space features generalization prediction",
+  "implicit neural representation weight space classification",
+]
+
+# Raw arXiv API search expressions (see https://info.arxiv.org/help/api/user-manual.html).
+arxiv = [
+  'abs:"learned optimizer" OR abs:"learned optimizers" OR ti:"learned optimizer" OR ti:"learned optimizers"',
+  'abs:"learning to optimize" AND (cat:cs.LG OR cat:stat.ML OR cat:cs.AI)',
+  'abs:"meta-learned optimizer" OR abs:"meta-learned optimizers" OR abs:"meta-trained optimizer"',
+  'abs:metanetwork OR abs:metanetworks OR (abs:"meta-network" AND abs:weights)',
+  'abs:"weight space" AND (abs:equivariant OR abs:symmetry OR abs:symmetries) AND cat:cs.LG',
+  'abs:"neural functional" OR abs:"neural functionals"',
+  'abs:"weight-space learning" OR abs:"weight space learning" OR ti:"weight space"',
+]
+
+# ---------------------------------------------------------------------------
+# Seed papers: their forward citations (published inside the search window)
+# are scanned. Citing several seeds is a strong relevance signal.
+# ---------------------------------------------------------------------------
+[[seeds]]
+name = "VeLO"
+id = "ARXIV:2211.09760"
+[[seeds]]
+name = "Celo"
+id = "ARXIV:2501.12670"
+[[seeds]]
+name = "muLO"
+id = "ARXIV:2406.00153"
+[[seeds]]
+name = "PyLO"
+id = "ARXIV:2506.10315"
+[[seeds]]
+name = "Closer Look (Harrison+22)"
+id = "ARXIV:2209.11208"
+[[seeds]]
+name = "Tasks/Stability (Metz+20)"
+id = "ARXIV:2009.11243"
+[[seeds]]
+name = "Pathologies (Metz+19)"
+id = "ARXIV:1810.10180"
+[[seeds]]
+name = "Scale & Generalize (Wichrowska+17)"
+id = "ARXIV:1703.04813"
+[[seeds]]
+name = "L2O Primer (Chen+21)"
+id = "ARXIV:2103.12828"
+[[seeds]]
+name = "VeLO eval (Antoniou+23)"
+id = "ARXIV:2310.18191"
+[[seeds]]
+name = "OPEN (Goldie+24)"
+id = "ARXIV:2407.07082"
+[[seeds]]
+name = "GMN (Lim+23)"
+id = "ARXIV:2312.04501"
+[[seeds]]
+name = "Neural Graphs (Kofinas+24)"
+id = "ARXIV:2403.12143"
+[[seeds]]
+name = "ScaleGMN"
+id = "ARXIV:2406.10685"
+# Weight-space anchors not (yet) in the vault, used only as citation seeds.
+[[seeds]]
+name = "NFN (Zhou+23)"
+id = "ARXIV:2302.14040"
+[[seeds]]
+name = "DWSNets (Navon+23)"
+id = "ARXIV:2301.12780"
+[[seeds]]
+name = "UNF (Zhou+24)"
+id = "ARXIV:2402.05232"

@@ -1,0 +1,594 @@
+{
+ "accelerating_knyazev_2024": {
+  "title": "Accelerating Training with Neuron Interaction and Nowcasting Networks",
+  "arxiv": "2409.04434",
+  "linked": true,
+  "abstract": [],
+  "body": {
+   "learning to optimize": 3,
+   "l2o": 24
+  },
+  "refs": {
+   "learned optimizer": 5,
+   "learning to optimize": 2,
+   "l2o": 2,
+   "velo": 1
+  }
+ },
+ "adapters_gravinghoff_2026": {
+  "title": "Adapters as Data: The Latent Space of LoRAs",
+  "arxiv": "2611.07775",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "adversarial_shor_2025": {
+  "title": "Adversarial Attacks in Weight-Space Classifiers",
+  "arxiv": "2502.20314",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "beyond_zhang_2025": {
+  "title": "Beyond the Permutation Symmetry of Transformers: The Role of Rotation for Model Fusion",
+  "arxiv": "2502.00264",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "learning to optimize": 1
+  }
+ },
+ "bifurcations_gobel_2026": {
+  "title": "Bifurcations from Weight Space: JEPAWG on Parametric Dynamical Systems",
+  "arxiv": "2610.30847",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "chart_horwitz_2025": {
+  "title": "We Should Chart an Atlas of All the World's Models",
+  "arxiv": "2503.10633",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "class_guo_2026": {
+  "title": "Is Class Signal Clustered or Routed in Task-Induced Implicit Neural Representation Weight Spaces?",
+  "arxiv": "2605.08281",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "crossgmn_dayan_2026": {
+  "title": "CrossGMN: Graph Metanetworks for Cross-Architecture Weight-Space Transformations",
+  "arxiv": "2610.01649",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "deep_kahana_2024": {
+  "title": "Deep Linear Probe Generators for Weight Space Learning",
+  "arxiv": "2410.10811",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "deepweightflow_gupta_2026": {
+  "title": "DeepWeightFlow: Re-Basined Flow Matching for Generating Neural Network Weights",
+  "arxiv": "2601.05052",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "discovering_zhao_2026": {
+  "title": "Discovering Symmetries in Neural Network Parameter Spaces",
+  "arxiv": "2609.33527",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "dynamic_wu_2026": {
+  "title": "Dynamic Neural Graph Encoding of Inference Processes in Deep Weight Space",
+  "arxiv": "2607.02166",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "learned optimizer": 1,
+   "velo": 1
+  }
+ },
+ "ensuring_qiu_2026": {
+  "title": "Ensuring Semantics in Weights of Implicit Neural Representations through the Implicit Function Theorem",
+  "arxiv": "2601.23181",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "equivariant_tran_2024": {
+  "title": "Equivariant Neural Functional Networks for Transformers",
+  "arxiv": "2410.04209",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "learned optimizer": 1,
+   "velo": 1
+  }
+ },
+ "exploiting_artemev_2026": {
+  "title": "Exploiting weight-space symmetries for approximating curvature",
+  "arxiv": "2606.00442",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "expressive_dayan_2026": {
+  "title": "On the Expressive Power of Permutation-Equivariant Weight-Space Networks",
+  "arxiv": "2602.01083",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "finite_sarangi_2026": {
+  "title": "Finite Probes Suffice: Identifiability and Universality for Weight-Space Learning",
+  "arxiv": "2609.33901",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "flows_saragih_2025": {
+  "title": "Flows and Diffusions on the Neural Manifold",
+  "arxiv": "2507.10623",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "generative_li_2025": {
+  "title": "Generative Adaptation of Dynamics to Environmental Shifts via Weight-space Diffusion",
+  "arxiv": "2505.13919",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "generative_zeng_2025": {
+  "title": "Generative Modeling of Weights: Generalization or Memorization?",
+  "arxiv": "2506.07998",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "geometric_erdogan_2025": {
+  "title": "Geometric Flow Models over Neural Network Weights",
+  "arxiv": "2504.03710",
+  "linked": false,
+  "abstract": [
+   "learned optimization"
+  ],
+  "body": {
+   "learned optimizer": 4,
+   "learned optimization": 3
+  },
+  "refs": {}
+ },
+ "gradmetanet_gelberg_2025": {
+  "title": "GradMetaNet: An Equivariant Architecture for Learning on Gradients",
+  "arxiv": "2507.01649",
+  "linked": true,
+  "abstract": [
+   "learned optimization"
+  ],
+  "body": {
+   "learned optimizer": 17,
+   "learned optimization": 5
+  },
+  "refs": {
+   "learned optimizer": 31,
+   "learned optimization": 2,
+   "velo": 2
+  }
+ },
+ "graph_barshalom_2026": {
+  "title": "A Graph Meta-Network for Learning on Kolmogorov-Arnold Networks",
+  "arxiv": "2602.16316",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "graph_kofinas_2024": {
+  "title": "Graph Neural Networks for Learning Equivariant Representations of Neural Networks",
+  "arxiv": "2403.12143",
+  "linked": true,
+  "abstract": [
+   "learning to optimize"
+  ],
+  "body": {
+   "learned optimizer": 1,
+   "learning to optimize": 6,
+   "l2o": 7
+  },
+  "refs": {
+   "learned optimizer": 5,
+   "learned optimization": 1,
+   "learning to optimize": 4,
+   "velo": 1
+  }
+ },
+ "graph_lim_2023": {
+  "title": "Graph Metanetworks for Processing Diverse Neural Architectures",
+  "arxiv": "2312.04501",
+  "linked": false,
+  "abstract": [],
+  "body": {
+   "learned optimization": 1
+  },
+  "refs": {
+   "learned optimizer": 1,
+   "velo": 1
+  }
+ },
+ "graph_wolanowsky_2026": {
+  "title": "Graph Metanetworks for Transformer Based Language Models",
+  "arxiv": "2610.18471",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "impact_falk_2025": {
+  "title": "The Impact of Model Zoo Size and Composition on Weight Space Learning",
+  "arxiv": "2504.10141",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "improving_mehta_2024": {
+  "title": "Improving Hyperparameter Optimization with Checkpointed Model Weights",
+  "arxiv": "2406.18630",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "learning to optimize": 1
+  }
+ },
+ "improving_zamir_2025": {
+  "title": "Improving Learning to Optimize Using Parameter Symmetries",
+  "arxiv": "2504.15399",
+  "linked": true,
+  "abstract": [
+   "l2o",
+   "meta-optimizer"
+  ],
+  "body": {
+   "learned optimizer": 3,
+   "learned optimization": 1,
+   "learning to optimize": 12,
+   "l2o": 42,
+   "meta-optimizer": 5
+  },
+  "refs": {
+   "learned optimizer": 4,
+   "learning to optimize": 4
+  }
+ },
+ "interfaces_kozyra_2026": {
+  "title": "Interfaces and Modules: A Scalable Representation for Weight-Space Learning across Architectures",
+  "arxiv": "2610.21995",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "optimizer state": 1
+  }
+ },
+ "internal_yeom_2025": {
+  "title": "On the Internal Representations of Graph Metanetworks",
+  "arxiv": "2503.09120",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "learning_falk_2025": {
+  "title": "Learning Model Representations Using Publicly Available Model Hubs",
+  "arxiv": "2510.02096",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "learning_horwitz_2024": {
+  "title": "Learning on Model Weights using Tree Experts",
+  "arxiv": "2410.13569",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "learning_lin_2026": {
+  "title": "Learning to Compare Neural Representations from Parameterized Computation Graphs",
+  "arxiv": "2611.26081",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "linear_heo_2026": {
+  "title": "What Linear Probes Miss: Multi-View Probing for Weight-Space Learning",
+  "arxiv": "2605.23410",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "meta_liu_2025": {
+  "title": "Meta Pruning via Graph Metanetworks : A Universal Meta Learning Framework for Network Pruning",
+  "arxiv": "2506.12041",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "metanetworks_kalogeropoulos_2025": {
+  "title": "Metanetworks as Regulatory Operators: Learning to Edit for Requirement Compliance",
+  "arxiv": "2512.15469",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "model_falk_2025": {
+  "title": "A Model Zoo of Vision Transformers",
+  "arxiv": "2504.10231",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "model_schurholt_2025": {
+  "title": "A Model Zoo on Phase Transitions in Neural Networks",
+  "arxiv": "2504.18072",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "night_biggs_2026": {
+  "title": "A Night at the LLM Zoo: Data Conditioned Flow Matching for Generating Pretrained LLM Weights",
+  "arxiv": "2611.07103",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "optimizer state": 1
+  }
+ },
+ "nnit_kim_2026": {
+  "title": "NNiT: Width-Agnostic Neural Network Generation with Structurally Aligned Weight Spaces",
+  "arxiv": "2603.00180",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "permutationequivariant_piven_2026": {
+  "title": "Permutation-Equivariant Flow Matching for Alignment-Free Neural Weight Generation",
+  "arxiv": "2609.32833",
+  "linked": false,
+  "abstract": [
+   "velo"
+  ],
+  "body": {},
+  "refs": {
+   "optimizer state": 1
+  }
+ },
+ "position_wang_2026": {
+  "title": "Position: Weight Space Should Be a First-Class Generative AI Modality",
+  "arxiv": "2605.18632",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "learning to optimize": 1
+  }
+ },
+ "quasiequivariant_tran_2026": {
+  "title": "Quasi-Equivariant Metanetworks",
+  "arxiv": "2604.23720",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "learned optimizer": 1,
+   "velo": 1
+  }
+ },
+ "recognize_kahana_2025": {
+  "title": "Can this Model Also Recognize Dogs? Zero-Shot Model Search from Weights",
+  "arxiv": "2502.09619",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "revisiting_sverdlov_2024": {
+  "title": "Revisiting Multi-Permutation Equivariance through the Lens of Irreducible Representations",
+  "arxiv": "2410.06665",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "scale_kalogeropoulos_2024": {
+  "title": "Scale Equivariant Graph Metanetworks",
+  "arxiv": "2406.10685",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {
+   "learning to optimize": 1
+  }
+ },
+ "shape_plattner_2025": {
+  "title": "Shape Generation via Weight Space Learning",
+  "arxiv": "2503.21830",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "structure_meynent_2025": {
+  "title": "Structure Is Not Enough: Leveraging Behavior for Neural Network Weight Reconstruction",
+  "arxiv": "2503.17138",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "survey_han_2026": {
+  "title": "A Survey of Weight Space Learning: Understanding, Representation, and Generation",
+  "arxiv": "2603.10090",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "symmetry_zhao_2025": {
+  "title": "Symmetry in Neural Network Parameter Spaces",
+  "arxiv": "2506.13018",
+  "linked": false,
+  "abstract": [],
+  "body": {
+   "learning to optimize": 1
+  },
+  "refs": {
+   "learning to optimize": 1
+  }
+ },
+ "symmetryaware_boufalis_2025": {
+  "title": "Symmetry-Aware Graph Metanetwork Autoencoders: Model Merging through Parameter Canonicalization",
+  "arxiv": "2511.12601",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "symmetryaware_kuipers_2025": {
+  "title": "Symmetry-Aware Fully-Amortized Optimization with Scale Equivariant Graph Metanetworks",
+  "arxiv": "2510.08300",
+  "linked": true,
+  "abstract": [],
+  "body": {
+   "learned optimization": 1,
+   "learning to optimize": 1,
+   "l2o": 1,
+   "meta-optimizer": 2
+  },
+  "refs": {
+   "learning to optimize": 1,
+   "meta-optimizer": 1,
+   "optimizer state": 1
+  }
+ },
+ "tensormutation_ahmed_2026": {
+  "title": "TensorMutation: Learning Weight-Space Mutations of Deep Learning Models on Neural Graphs",
+  "arxiv": "2611.09650",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "text2weight_tian_2025": {
+  "title": "Text2Weight: Bridging Natural Language and Neural Network Weight Spaces",
+  "arxiv": "2508.13633",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "transferable_ma_2026": {
+  "title": "Transferable Graph Metanetworks",
+  "arxiv": "2610.00420",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "unsupervised_horwitz_2024": {
+  "title": "Unsupervised Model Tree Heritage Recovery",
+  "arxiv": "2405.18432",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "w2t_han_2026": {
+  "title": "W2T: LoRA Weights Already Know What They Can Do",
+  "arxiv": "2603.15990",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "weight_ballerini_2025": {
+  "title": "Weight Space Representation Learning on Diverse NeRF Architectures",
+  "arxiv": "2502.09623",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "weight_rezk_2025": {
+  "title": "Weight Space Learning for Certifiable Few-shot Transfer Learning",
+  "arxiv": "2502.06970",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "weight_yang_2025": {
+  "title": "Weight Space Representation Learning via Neural Field Adaptation",
+  "arxiv": "2512.01759",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "weightclip_asefaw_2026": {
+  "title": "WeightCLIP: Aligning Datasets and Models for Weight Space Learning",
+  "arxiv": "2607.03551",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ },
+ "weightspace_janik_2026": {
+  "title": "Weight-Space Mixture-of-Experts for Implicit Neural Representation Classification",
+  "arxiv": "2607.29463",
+  "linked": false,
+  "abstract": [],
+  "body": {},
+  "refs": {}
+ }
+}
