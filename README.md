@@ -767,7 +767,7 @@ _Networks that take other networks' parameters as input: neural functionals, equ
 
 
 ### [GradMetaNet: An Equivariant Architecture for Learning on Gradients](https://arxiv.org/abs/2507.01649) — 🔗 *LO-linked*
-**Authors:** Gelberg, Yoav and Eitan, Yam and Navon, Aviv and Shamsian, Aviv and Theo and Putterman and Bronstein, Michael and Maron, Haggai  
+**Authors:** Gelberg, Yoav and Eitan, Yam and Navon, Aviv and Shamsian, Aviv and Putterman, Theo and Bronstein, Michael and Maron, Haggai  
 *neural information processing systems* · 2025 · [arXiv:2507.01649](https://arxiv.org/abs/2507.01649)
 
 <details>

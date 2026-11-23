@@ -711,7 +711,7 @@ All **113 papers** of the vault grouped by publication year (newest first) and o
 
 
 ### [GradMetaNet: An Equivariant Architecture for Learning on Gradients](https://arxiv.org/abs/2507.01649) — 🔗 *LO-linked*
-**Authors:** Gelberg, Yoav and Eitan, Yam and Navon, Aviv and Shamsian, Aviv and Theo and Putterman and Bronstein, Michael and Maron, Haggai  
+**Authors:** Gelberg, Yoav and Eitan, Yam and Navon, Aviv and Shamsian, Aviv and Putterman, Theo and Bronstein, Michael and Maron, Haggai  
 **Date:** 2025-07-02 · **Topics:** Weight-Space Learning & Graph Metanetworks, General-Purpose Learned Optimizers  
 *neural information processing systems* · 2025 · [arXiv:2507.01649](https://arxiv.org/abs/2507.01649)
 

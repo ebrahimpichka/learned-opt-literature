@@ -36,3 +36,4 @@ written by hand; `manage_papers.py` appends one line per `discover` / `add` / `e
 
 ## Automatic entries
 
+- 2026-11-23 01:57 `manual` — fixed GradMetaNet author split by upstream arXiv metadata ("Theo and Putterman" -> "Putterman, Theo")
